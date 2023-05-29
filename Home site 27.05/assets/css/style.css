@@ -1,0 +1,153 @@
+ul li span{
+    font-size: 50px;
+}
+i{
+    font-size: 25px;
+    cursor: pointer;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    background-image: url('https://megaone.acrothemes.com/directory-listing/img/logo-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    /* bottom: 25rem; */
+    top: 50px;
+    left: 100px;
+    z-index: 2;
+}
+
+nav{
+    position: relative;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+    height: 20vh;
+    width: 100%;
+}
+
+header{
+    background-color: darkcyan;
+    height: 100vh;
+}
+
+.searching{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding-top: 12%;
+}
+
+.search-box{
+    width: 90%;
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 2%;
+    margin-top: 2%;
+    background-color: aqua;
+    /* height: 70vh; */
+}
+
+.socials{
+    margin-left: 5%;
+}
+.socials i{
+    color: white;
+}
+
+button{
+    width: 100%;
+}
+button a{
+    color: white;
+}
+
+
+.container .house{
+    margin-left: 10%;
+}
+
+
+.about{
+    height: 150vh;
+}
+.text-about {
+    margin: 5% 25%;
+}
+.text-about *{
+    margin-top: 4%;
+}
+
+.item{ 
+    text-align: center;
+}
+
+.item div{
+    background-color: bisque;
+    border-radius: 50%;
+}
+
+.item div img {
+    /* border: solid 1px; */
+    border-radius: 50%;
+}
+.properties{
+    margin-bottom: 3%;
+}
+
+
+
+.happy{
+    height: 50vh;
+    background-image: url('https://cdn.shopify.com/s/files/1/0852/7752/products/Quilton_2_Seater_Linara_100Tarragon_Scene1_grande.jpg?v=1661377767');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+.happy span{
+    margin-top: 5%;
+
+}
+
+.clients{
+    position: relative;
+}
+
+.customer {
+    width:20%;
+    position: absolute;
+    top: 13rem;
+}
+
+/* .clients .customer .item div img{
+    width: 150px; 
+} */
+
+.clients .customer .item div{
+    width: 150px; 
+}
+
+/* .properties{
+    width: 100%;
+} */
+
+.properties button{
+    /* text-align: center; */
+    margin: 0 auto;
+    width: 200px; 
+}
+
+@media(max-width: 768px){
+    .happy{
+        background-size: 150%;
+        /* background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        text-align: center; */
+    }
+}
+
